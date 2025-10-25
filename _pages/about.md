@@ -17,4 +17,4 @@ I am a PhD student at the University of Belgrade, School of Electrical Engineeri
 
 I currently work as a research assistant at the Institute for Artificial Intelligence Research and Development of Serbia, where I study the applications of artificial intelligence in computational biology.
 
-In my free time, I enjoy road and mountain biking (that's where I get to do a lot of my thinking, and where most of the research roadblocks get solved!).
+In my free time, I enjoy road and mountain biking. I do most of my thinking on the trails, and that's where most of the research roadblocks get solved!
