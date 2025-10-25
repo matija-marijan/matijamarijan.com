@@ -29,6 +29,10 @@ Experience
 
 * Institute Mihajlo Pupin Computer Systems, 2022
   * Internship
+
+* Student Demonstrator, 2021 - 2023
+  * University of Belgrade, School of Electrical Engineering
+  * Assisted in laboratory exercises for various courses
   
 Skills
 ======
@@ -45,6 +49,13 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
+Awards & Honors
+======
+* Scholarship for extremely gifted students of the Ministry of Education, Science and Technological Development of the Republic of Serbia
+  * Awarded three times (2021-2024)
+* Scholarship of the Ministry of Education, Science and Technological Development of the Republic of Serbia
+  * Awarded two times (2019-2021)
+
 <!-- Talks
 ======
   <ul>{% for post in site.talks reversed %}
