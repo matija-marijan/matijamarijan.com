@@ -23,7 +23,7 @@ repository               : "matija-marijan/matijamarijan.com"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "images/profile.png"
   name             : "Matija Marijan"
   pronouns         : # example: "she/her"  
   bio              : "I am a PhD student working on integrating machine learning in computational biology, computer vision, and signal processing."
