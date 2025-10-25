@@ -4,6 +4,7 @@ collection: publications
 category: conferences
 permalink: /publication/2025-11-24-sound-source-localization
 # excerpt: 'This paper is about fixing template issue #693.'
+show_excerpt: false
 date: 2025-11-24
 venue: '33rd Telecommunications Forum TELFOR'
 # paperurl: 'https://belbi.bg.ac.rs/wp-content/uploads/2024/07/BelBi2024-Book-of-Abstracts.pdf'

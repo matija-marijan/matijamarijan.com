@@ -4,6 +4,7 @@ collection: publications
 category: conferences
 permalink: /publication/2024-6-18-protein-representations-dta
 # excerpt: 'This paper is about fixing template issue #693.'
+show_excerpt: false
 date: 2024-06-18
 venue: '5th Belgrade Bioinformatics Conference'
 paperurl: 'https://belbi.bg.ac.rs/wp-content/uploads/2024/07/BelBi2024-Book-of-Abstracts.pdf'

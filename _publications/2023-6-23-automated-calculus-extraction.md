@@ -4,6 +4,7 @@ collection: publications
 category: conferences
 permalink: /publication/2023-6-23-automated-calculus-extraction
 # excerpt: 'This paper is about fixing template issue #693.'
+show_excerpt: false
 date: 2023-06-23
 venue: '67th Conference on Electrical, Electronic, and Computing Engineering ETRAN'
 paperurl: 'https://www.etran.rs/2023/E_ZBORNIK_ETRAN_2023/ETRAN23_RADOVI/BT2.1.pdf'
