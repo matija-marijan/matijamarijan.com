@@ -9,7 +9,7 @@ redirect_from:
 
 Welcome to my personal website!
 
-Here, I try to boast about myself even though that's not really my style. Still, I hope you find something interesting here. Feel free to explore my research interests, projects, hobbies, and more.
+Usually, people like to boast about themselves on their websites, but that's not really my style. Still, I hope you find something interesting here. Feel free to explore my research, projects, hobbies, and more.
 
 Here are some things about me:
 
