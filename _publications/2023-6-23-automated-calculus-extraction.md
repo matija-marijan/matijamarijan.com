@@ -10,4 +10,17 @@ paperurl: 'https://www.etran.rs/2023/E_ZBORNIK_ETRAN_2023/ETRAN23_RADOVI/BT2.1.p
 citation: '<b>M. Marijan</b>, K. Milićević, O. Durutović, A. Filipović, M. Janković, &quot;A rule-based algorithm for automated renal calculus extraction on CT scans&quot; <i>67th Conference on Electrical, Electronic, and Computing Engineering ETRAN</i>.'
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+Planning the optimal approach for performing percutaneous
+nephrolithotomy (PCNL), minimally invasive surgery to remove
+kidney stones, is critical to reducing the risk of surgical
+complications. This paper presents the 3D Gastro CT Auto tool for
+automatic three-dimensional (3D) segmentation and visualization of
+renal structures with calculus using contrast-enhanced computerized
+tomography (CT) scans. A novel algorithm for 3D segmentation
+based on histogram analysis of preprocessed CT scans was
+implemented as an upgrade of a previously developed
+3D Gastro CT Extended application with the aim of simplifying its
+use, reducing study processing times, and bringing the use of a
+minimally invasive PCNL planning tool closer to clinical practice.
+The results of using the tool are shown on the CT scan database of
+eight patients.
