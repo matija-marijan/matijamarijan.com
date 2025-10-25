@@ -26,9 +26,9 @@ author:
   avatar           : "profile.png"
   name             : "Matija Marijan"
   pronouns         : # example: "she/her"  
-  bio              : "I am a PhD student at the University of Belgrade -- School of Electrical Engineering, working on integrating machine learning algorithms in computational biology, computer vision, and signal processing"
+  bio              : "I am a PhD student working on integrating machine learning in computational biology, computer vision, and signal processing."
   location         : "Belgrade, Serbia"
-  employer         : "University of Belgrade -- School of Electrical Engineering"
+  employer         : "University of Belgrade"
   uri              : # URL
   email            : "matijamarijan99@gmail.com" 
 
