@@ -11,35 +11,29 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* PhD Student in Electrical Engineering and Computer Science, University of Belgrade - School of Electrical Engineering, 2023 - Current
+* MSc in Electrical Engineering and Computer Science, University of Belgrade - School of Electrical Engineering, 2022 - 2023
+* BSc in Electrical Engineering and Computer Science, University of Belgrade - School of Electrical Engineering, 2018 - 2022
 
-Work experience
+Experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Institute for Artificial Intelligence Research and Development of Serbia, 2024 - Current
+  * Junior Research Assistant
+  * AI in Healthcare & Life Sciences group
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* United Nations Development Programme, 2024 - 2025
+  * Project Analyst (part-time)
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Institute Mihajlo Pupin Automation & Control Systems, 2023
+  * Internship
+
+* Institute Mihajlo Pupin Computer Systems, 2022
+  * Internship
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming Languages
+  * Python, Java, C++, C#, C, Pascal, HTML, CSS, PLC, SCADA, VHDL
 
 Publications
 ======
@@ -47,18 +41,14 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+<!-- Talks
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
-Teaching
+<!-- Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+  {% endfor %}</ul> -->
