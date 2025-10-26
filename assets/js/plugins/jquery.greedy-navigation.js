@@ -61,10 +61,15 @@ function updateNav() {
   // update masthead height and the body/sidebar top padding
   var mastheadHeight = $('.masthead').height();
   $('body').css('padding-top', mastheadHeight + 'px');
+  // Reduce the sidebar top padding so the sidebar sits closer to the main body.
+  // We subtract a small offset (48px) from the masthead height when applying
+  // the padding to the sidebar. Use Math.max to avoid negative padding.
+  var sidebarOffset = 48;
+  var sidebarPadding = Math.max(0, mastheadHeight - sidebarOffset);
   if ($(".author__urls-wrapper button").is(":visible")) {
     $(".sidebar").css("padding-top", "");
   } else {
-    $(".sidebar").css("padding-top", mastheadHeight + "px");
+    $(".sidebar").css("padding-top", sidebarPadding + "px");
   }
 
 }
