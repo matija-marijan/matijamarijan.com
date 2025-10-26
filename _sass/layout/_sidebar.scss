@@ -64,6 +64,17 @@
   }
 }
 
+/* Reduce the internal sticky offset so sidebar content sits closer to the
+   top of its container when stuck. The sidebar element has both classes
+   `sidebar` and `sticky`, so we target the combined selector for specificity
+   and to avoid affecting other sticky elements site-wide. */
+.sidebar.sticky {
+  @include breakpoint($large) {
+    /* Approx. 0.5cm (~19px) from the top of the container */
+    top: 1.25rem;
+  }
+}
+
 .sidebar__right {
   margin-bottom: 1em;
 
