@@ -23,8 +23,7 @@
     // Keep sidebar within the main container and flow
     position: -webkit-sticky;
     position: sticky;
-    top: 16px;          // sit below the fixed masthead
-    z-index: 10;
+    top: $masthead-height/2;          // sit below the fixed masthead
     height: auto;
     max-height: none;
     overflow: visible;
