@@ -21,11 +21,11 @@
     // Keep sidebar within the main container and flow
     position: -webkit-sticky;
     position: sticky;
-    top: 12px;          // sit below the fixed masthead
+    top: 24px;          // sit below the fixed masthead
     height: auto;
     max-height: none;
     overflow: visible;
-    padding-top: 12px;
+    padding-top: 0;
   }
 
   @include breakpoint($large) {
