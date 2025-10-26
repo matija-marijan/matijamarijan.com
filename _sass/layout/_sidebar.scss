@@ -7,8 +7,8 @@
    ========================================================================== */
 
 .sidebar {
-  margin-top: $masthead-height !important;
-  padding-top: 0 !important;
+  margin-top: 0 !important;
+  padding-top: $masthead-height !important;
   -webkit-transform: translate3d(0, 0 , 0);
           transform: translate3d(0, 0 , 0);
 
