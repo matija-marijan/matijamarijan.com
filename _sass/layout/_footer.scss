@@ -6,6 +6,11 @@
   @include clearfix;
   background-color: var(--global-footer-bg-color);
   color: var(--global-text-color-light);
+  /* subtle separation shadow above the footer */
+  // box-shadow: 0 -1px 1px rgba(0, 0, 0, 0.125);
+  /* glass effect to emphasize transparency over background image */
+  -webkit-backdrop-filter: saturate(160%) blur(8px);
+          backdrop-filter: saturate(160%) blur(8px);
 
   float: left;
   margin-left: 0;
