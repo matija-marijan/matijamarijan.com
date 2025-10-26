@@ -44,7 +44,7 @@ $sidebar-screen-min-width   : 1024px;
     --global-text-color                 : #{$dark-gray};
     --global-text-color-light           : #{$light-gray};
     --global-thead-color                : #{$lighter-gray};
-    /* custom: background image and content container color */
-    --global-bg-image                   : url("/images/background.jpg");
-    --global-content-bg-color           : rgba($lighter-gray, 0.85);
+    /* custom: background image path and content container color */
+    --global-bg-image-path              : "/images/background.jpg";
+    --global-content-bg-color           : #{rgba($lighter-gray, 0.85)};
 }
