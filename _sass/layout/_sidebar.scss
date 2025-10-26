@@ -24,6 +24,7 @@
     position: -webkit-sticky;
     position: sticky;
     top: 16px;          // sit below the fixed masthead
+    z-index: 10;
     height: auto;
     max-height: none;
     overflow: visible;
