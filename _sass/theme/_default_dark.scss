@@ -53,5 +53,5 @@ html[data-theme="dark"] {
     --global-thead-color                : #{$background-lighter};
     /* custom: background image path and content container color */
     --global-bg-image-path              : /images/background.jpg;
-    --global-content-bg-color           : #{rgba($dark-gray, 0.85)};
+    --global-content-bg-color           : #{rgba($dark-gray, 0.8)};
 }
