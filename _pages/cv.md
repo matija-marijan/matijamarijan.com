@@ -9,14 +9,16 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
+<div style="margin-top:1.5rem"></div>
+
+## Education
+
 * PhD Student in Electrical Engineering and Computer Science, University of Belgrade, 2023 - Current
 * MSc in Electrical Engineering and Computer Science, University of Belgrade, 2022 - 2023
 * BSc in Electrical Engineering and Computer Science, University of Belgrade, 2018 - 2022
 
-Experience
-======
+## Experience
+
 * Institute for Artificial Intelligence Research and Development of Serbia, 2024 - Current
   * Junior Research Assistant
   * AI in Healthcare & Life Sciences group
@@ -34,8 +36,8 @@ Experience
   * University of Belgrade, School of Electrical Engineering
   * Assisted in laboratory exercises for various courses
   
-Skills
-======
+## Skills
+
 * Programming Languages
   * Python, Java, C++, C#, C, Pascal, HTML, CSS, PLC, SCADA, VHDL
 * Development Environments & Tools
@@ -43,14 +45,14 @@ Skills
 * Biomedical & Signal Processing Software
   * PyMol, 3D Slicer, ImageJ, SPM, OpenSim, SimVascular, LTspice, ModelSim
   
-Publications
-======
+## Publications
+
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Awards & Honors
-======
+## Awards & Honors
+
 * Scholarship for extremely gifted students of the Ministry of Education, Science and Technological Development of the Republic of Serbia
   * Awarded three times (2021-2024)
 * Scholarship of the Ministry of Education, Science and Technological Development of the Republic of Serbia
