@@ -11,6 +11,12 @@ body {
   /* Set via _themes.scss */
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
+  /* Background image covering the viewport */
+  background-image: var(--global-bg-image);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
 
   margin: 0;
   padding: $masthead-height 0 0;

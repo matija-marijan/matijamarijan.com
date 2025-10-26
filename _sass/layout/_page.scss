@@ -11,6 +11,13 @@
   animation: intro 0.3s both;
   animation-delay: 0.35s;
 
+  /* Central translucent container */
+  background-color: var(--global-content-bg-color);
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+  padding-top: 1em;
+  padding-bottom: 1em;
+
   @include breakpoint($x-large) {
     max-width: $x-large;
   }
