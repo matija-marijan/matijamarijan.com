@@ -12,11 +12,19 @@ body {
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
   /* Background image covering the viewport */
+  /* Fallback static path (in case CSS variables are not applied early) */
+  background-image: url("/images/background.jpg");
+  /* Theme-aware override via CSS variable */
   background-image: url(var(--global-bg-image-path));
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
+
+  /* Improve mobile compatibility: some mobile browsers ignore fixed backgrounds */
+  @media (max-width: 768px) {
+    background-attachment: scroll;
+  }
 
   margin: 0;
   padding: $masthead-height 0 0;
