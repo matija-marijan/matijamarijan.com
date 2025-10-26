@@ -7,11 +7,8 @@
    ========================================================================== */
 
 .sidebar {
-  // remove manual offsets
-  margin-top: 0;
-  padding-top: 0;
   -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
 
   @include clearfix();
   margin-bottom: 1em;
@@ -24,11 +21,11 @@
     // Keep sidebar within the main container and flow
     position: -webkit-sticky;
     position: sticky;
-    // use top to place it under the fixed masthead
-    top: $masthead-height;   // <-- let this control vertical offset
+    top: 14px;          // sit below the fixed masthead
     height: auto;
     max-height: none;
     overflow: visible;
+    margin-top: 0;
     padding-top: 0;
   }
 
@@ -100,7 +97,7 @@
     width: auto;
     height: auto;
     // Add a bit more space below the image on larger screens
-    margin-bottom: 4px;
+    margin-bottom: 12px;
   }
 
   img {
