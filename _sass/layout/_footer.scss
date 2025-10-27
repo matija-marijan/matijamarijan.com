@@ -17,6 +17,13 @@
   /* Let the footer sit at the end of the flex column without overlapping content */
   margin-top: auto; /* creates elastic gap above footer when page is short */
   flex-shrink: 0;   /* prevent footer from shrinking */
+  /* Fix footer height to match masthead height */
+  height: $masthead-height;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center; /* vertically center inner footer */
+  overflow: hidden; /* avoid ballooning; clip excess if any */
 
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
@@ -28,9 +35,10 @@
     @include clearfix;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 1em;
+    /* Remove extra vertical margin/padding to keep fixed height */
+    margin-top: 0;
     max-width: 100%;
-    padding: 0 1em 1em;
+    padding: 0 1em;
 
     @include breakpoint($x-large) {
       max-width: $x-large;
