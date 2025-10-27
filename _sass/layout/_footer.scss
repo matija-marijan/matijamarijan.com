@@ -13,13 +13,10 @@
   width: 100%;
   clear: both;
 
-  /* sticky footer fix start */
-  position: absolute;
-  bottom: 0em;
-  height: auto;
-  /* sticky footer fix end */
-
-  margin-top: 0;
+  /* Flex-based sticky footer: pushed to bottom when content is short */
+  /* Let the footer sit at the end of the flex column without overlapping content */
+  margin-top: auto; /* creates elastic gap above footer when page is short */
+  flex-shrink: 0;   /* prevent footer from shrinking */
 
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;

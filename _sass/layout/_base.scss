@@ -27,8 +27,13 @@ body {
   }
 
   margin: 0;
+  /* Create a flex column so footer can be pushed to the bottom on short pages */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  /* account for fixed masthead height at the top */
   padding: $masthead-height 0 0;
-  padding-bottom: 9em;
   font-family: $global-font-family;
   line-height: 1.5;
 
