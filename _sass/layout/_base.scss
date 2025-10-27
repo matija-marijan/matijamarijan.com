@@ -30,12 +30,7 @@ body {
   /* Create a flex column so footer can be pushed to the bottom on short pages */
   display: flex;
   flex-direction: column;
-  /* Subtract the fixed masthead height to avoid scrolling past the footer on short pages */
-  min-height: calc(100vh - #{$masthead-height});
-  /* Use dynamic viewport unit when supported to avoid mobile browser UI issues */
-  @supports (height: 100dvh) {
-    min-height: calc(100dvh - #{$masthead-height});
-  }
+  min-height: 100vh;
 
   /* account for fixed masthead height at the top */
   padding: $masthead-height 0 0;
