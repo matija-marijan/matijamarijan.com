@@ -10,8 +10,10 @@
   margin-bottom: 2em;
   padding-left: 1em;
   padding-right: 1em;
-  animation: intro 0.3s both;
-  animation-delay: 0.35s;
+  -webkit-animation: intro 0.75s both;
+          animation: intro 0.75s both;
+  -webkit-animation-delay: 0.75s;
+          animation-delay: 0.75s;
 
   /* Central translucent container */
   background-color: var(--global-content-bg-color);
