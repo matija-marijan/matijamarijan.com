@@ -5,7 +5,7 @@ html {
   /* sticky footer fix */
   position: relative;
   min-height: 100%;
-  // height: 100%;
+  height: 100%;
   background-color: var(--global-bg-color);
   background-image: url("/images/background.jpg");
   background-image: url(var(--global-bg-image-path));
@@ -21,24 +21,17 @@ html {
 }
 
 body {
-  /* Set via _themes.scss */
   color: var(--global-text-color);
   background-color: transparent;
-
   margin: 0;
-  /* Create a flex column so footer can be pushed to the bottom on short pages */
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
-  // min-height: 100%;
-
-  /* account for fixed masthead height at the top */
+  min-height: calc(100vh + 0.1%); /* Always slightly taller than viewport */
   padding: $masthead-height 0 0;
   font-family: $global-font-family;
   line-height: 1.5;
 
   &.overflow--hidden {
-    /* when primary navigation is visible, the content in the background won't scroll */
     overflow: hidden;
   }
 }
