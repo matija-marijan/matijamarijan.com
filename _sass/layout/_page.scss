@@ -28,6 +28,17 @@
   }
 }
 
+  /* On narrow viewports we want a visible gutter so `#main` does not touch
+     the left/right edges of the screen. This preserves the translucent
+     container but adds a comfortable margin on small devices. */
+  @media (max-width: 768px) {
+    #main {
+      margin-left: 1rem;
+      margin-right: 1rem;
+      /* keep existing inner padding but ensure there's a visible outer gap */
+    }
+  }
+
 // Trim extra bottom margin so top/bottom spacing match
 #main > :last-child {
   margin-bottom: 0;

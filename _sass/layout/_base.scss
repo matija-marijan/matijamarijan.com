@@ -17,8 +17,63 @@ html {
   /* Improve mobile compatibility: some mobile browsers ignore fixed backgrounds */
   @media (max-width: 768px) {
     background-attachment: scroll;
+    /* On small screens anchor the image to the top and keep `cover` so the
+       background always scales to fill the viewport height; a single
+       percentage-based width (e.g. 150%) can fail on very tall/narrow
+       viewports and reveal the page background. */
+    background-position: center top;
+    background-size: cover;
+    background-color: transparent;
   }
 }
+
+/* Use a fixed pseudo-element to render the background image. This is more
+   robust than relying on `background-attachment: fixed` on `html` which can
+   behave inconsistently across browsers/zoom levels and can reveal the
+   underlying background color. The pseudo-element always covers the
+   viewport and uses `background-size: cover` so the image is cropped/zoomed
+   consistently. */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  /*
+    Use a literal URL here rather than `url(var(--...))` because some
+    browsers do not support `url()` with CSS custom properties. The
+    `html` background remains as a fallback if this pseudo-element is
+    not used by the browser. This keeps the background visible and
+    avoids the white/gray regression.
+  */
+  background-image: url("/images/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center 25%;
+  background-size: cover;
+  /* ensure the pseudo-element doesn't interfere with pointer events */
+  pointer-events: none;
+}
+
+/* Slightly increase the crop on narrower viewports so the image feels zoomed */
+@media (max-width: 768px) {
+  body::before {
+    background-size: cover;
+    background-position: center 25%;
+  }
+}
+
+/* Make sure html doesn't paint its own background image below the pseudo
+   element; keep the CSS var available for components but render no fallback
+   color so we never see a gray/white band when the image can't cover. */
+/* Leave the `html` background in place as a robust fallback. Removing
+   the following block prevents the site from falling back to a white
+   background when `body::before` isn't applied by the browser. */
+// html {
+//   background-image: none !important;
+//   background-color: transparent !important;
+// }
 
 body {
   color: var(--global-text-color);
