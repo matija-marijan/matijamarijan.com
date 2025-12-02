@@ -11,6 +11,8 @@ Welcome to my personal website!
 
 Usually, people like to boast about themselves on their websites, but that's not really my style. Still, I hope you find something interesting here. Feel free to explore my research, projects, hobbies, and more.
 
+---
+
 Here are some things about me:
 
 I am a PhD student at the University of Belgrade, researching advanced AI/ML methods for audio signal processing, with focus on spatial audio, microphone array processing, sound source localization, and geometric deep learning.
