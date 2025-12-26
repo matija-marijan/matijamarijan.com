@@ -55,16 +55,19 @@ redirect_from:
 ---
 
 * **Programming Languages**
-  * Python, Java, C++, C#, C, Pascal, HTML, CSS, JavaScript, Bash, PLC, SCADA, VHDL
+  * Python, Java, C++, C#, C, Bash
 
 * **Machine Learning & Data Science**
-  * PyTorch, TensorFlow, Keras, Scikit-learn, NumPy, SciPy, OpenCV, Matplotlib, Pandas, SQL
+  * PyTorch, TensorFlow, Keras, Scikit-learn, NumPy, SciPy, Pandas, SQL
 
-* **Development Environments & Tools**
-  * Visual Studio, Spyder, PyCharm, Eclipse, MATLAB, Simulink, GNU Octave, LabVIEW, Qt Creator, Docker, Git, LaTeX, Arduino, TIA Portal
+* **Signal Processing & Computer Vision**
+  * MATLAB/Octave, Simulink, OpenCV, LabVIEW
 
-* **Biomedical & Signal Processing Software**
-  * PyMol, 3D Slicer, ImageJ, NITRC SPM, OpenSim, SimVascular, ModelSim, LTspice
+* **Tools & Development**
+  * VS Code, Docker, Git, Linux, PyMol, LaTeX, Arduino
+
+<!-- * **Biomedical & Signal Processing Software**
+  * PyMol, 3D Slicer, ImageJ, NITRC SPM, OpenSim, SimVascular, ModelSim, LTspice -->
   
 ## Publications
 ---
