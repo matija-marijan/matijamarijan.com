@@ -37,7 +37,7 @@ I am also involved in research and development of computer vision methods for pr
 
 Some of the projects I have work on:
 
-* Development of a thermal imaging camera trap for detecting small animals using YOLO and OpenCV ([GitHub](https://github.com/ICAERUS-EU/OCT-RODENT))
+* Development of a thermal imaging camera trap for detecting small animals using YOLO and OpenCV ([GitHub](https://github.com/ICAERUS-EU/OCT-RODENT)) ([Paper](/publication/2026-1-30-rodent-obstruction-ultrasound))
 * Feature extraction and engineering for machine learning surface crack detection on construction surfaces ([GitHub](https://github.com/matija-marijan/surface-crack-detection))
 * Automated 3D segmentation tool for renal calculus and organ segmentation on CT scans ([GitHub](https://github.com/matija-marijan/3D-Gastro-CT-Auto)) ([Paper](/publication/2023-6-23-automated-calculus-extraction))
 * Automated sanitary freshener quality control and defect detection using SAM and OpenCV ([GitHub](https://github.com/matija-marijan/freshener-quality-control))
