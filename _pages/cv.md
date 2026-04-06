@@ -26,7 +26,7 @@ redirect_from:
 ## Experience
 ---
 
-* **Institute for Artificial Intelligence Research and Development of Serbia** (2024 - Present)
+* **Institute for Artificial Intelligence Research and Development of Serbia** (2024 - 2026)
   * Junior Research Assistant -- AI in Healthcare & Life Sciences
   * Developing end-to-end and lab-in-the-loop AI/ML solutions for computational biology, drug development, and protein engineering.
   * Tuning LLMs for protein embeddings, sequence generation, and functional property prediction.

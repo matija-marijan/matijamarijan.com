@@ -17,6 +17,6 @@ Here are some things about me:
 
 I am a PhD student at the University of Belgrade, researching advanced AI/ML methods for audio signal processing, with focus on spatial audio, microphone array processing, sound source localization, and geometric deep learning.
 
-I currently work as a research assistant at the Institute for Artificial Intelligence R&D of Serbia, where I develop AI/ML pipelines for computational biology, including drug development, molecular optimization, and protein engineering.
+<!-- I currently work as a research assistant at the Institute for Artificial Intelligence R&D of Serbia, where I develop AI/ML pipelines for computational biology, including drug development, molecular optimization, and protein engineering. -->
 
 In my free time, I enjoy road and mountain biking. I do most of my thinking on the trails, and that's where most of the research roadblocks get solved!

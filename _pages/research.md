@@ -7,6 +7,17 @@ author_profile: true
 
 <div style="margin-top:1.5rem"></div>
 
+## Signal processing
+---
+
+I am currently pursuing a PhD in Electrical Engineering and Computer Science, where my research focuses on advancing acoustic signal processing through modern machine learning methods.
+
+Here are some of the research topics I am working on:
+
+* Developing advanced AI/ML techniques for spatial audio analysis and microphone array processing
+* Sound source localization using message passing graph neural networks ([GitHub](https://github.com/matija-marijan/Graph-RelNet)) ([Paper](/publication/2025-11-24-sound-source-localization))
+* Geometric deep learning for modeling spatial relationships and learning geometry-aware representations
+
 ## Computational biology
 ---
 
@@ -18,17 +29,6 @@ Current research projects include:
 * Multi-objective latent space optimization of molecular and peptide properties under structural constraints
 * Peptide sequence optimization with a mixture-of-experts genetic algorithm ([GitHub](https://github.com/matija-marijan/genetic-sequence-optimization))
 * Protein function prediction and generative peptide optimization
-
-## Signal processing
----
-
-I am currently pursuing a PhD in Electrical Engineering and Computer Science, where my research focuses on advancing acoustic signal processing through modern machine learning methods.
-
-Here are some of the research topics I am working on:
-
-* Developing advanced AI/ML techniques for spatial audio analysis and microphone array processing
-* Sound source localization using message passing graph neural networks ([GitHub](https://github.com/matija-marijan/Graph-RelNet)) ([Paper](/publication/2025-11-24-sound-source-localization))
-* Geometric deep learning for modeling spatial relationships and learning geometry-aware representations
 
 ## Computer vision
 ---
